@@ -1,0 +1,66 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+hi
+how are u
+today day 3 in hexaware training
+thank you all
+<<<<<<< HEAD
+<<<<<<< HEAD
+hello im nikita
+hgjutk,gllg
+hgugitk,g
+
+=======
+Mera naam Joker
+Tamasha
+>>>>>>> e41a5b1e64f504dc4dad7818cf56e43b5669d6fd
+=======
+hi iam malar
+sjkfhsdjk hi how are you what are you doing
+sdfklgdklv:wq
+hi 
+date 16 Jan
+bye
+hi
+bye
+<<<<<<< HEAD
+i am darshini
+thank you
+=======
+hi all 
+i am niru
+>>>>>>> e1db813f82437a2e53fb956c671ed7c8d727be99
+
+>>>>>>> 8ffb7f80a6a15d26fff5030a8989cff33d5a5aeb
+hello im nikita
+hgjutk,gllg
+hgugitk,g
+<<<<<<< HEAD
+>>>>>>> 8ffb7f80a6a15d26fff5030a8989cff33d5a5aeb
+=======
+<<<<<<< HEAD
+______________________
+
+<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+=======
+
+ /**
+    * Update LeaveBalance after ApplyLeave.
+    *@param empId the id of the Manager.
+    * @param updBal the latest leave Balance.
+    */
+    @SqlUpdate("UPDATE EMPLOYEE SET EMP_AVAIL_LEAVE_BALANCE = :updBal WHERE EMP_ID = :empId")
+    void decrement(@Bind("updBal") int updBal, @Bind("empId") int empId);
+>>>>>>> 9d6465df48015ff7056374e64c638f454f754f8d
+>>>>>>> e41a5b1e64f504dc4dad7818cf56e43b5669d6fd
+=======
+curl -vvv -H "Accept:application/json" -X POST -H "Content-Type:application/json" -d '{"comm":"0","deptno":"20","empno":"4158","hiredate":"1981-03-12","mgr":"7566","ename":"nikki","sal":"3000"}' "http://localhost:8080/Prac1/webapi/employees/employInsert"
+>>>>>>> 421291aa572b9e25c2cdb99308de46d239d6fb2f
+=======
+curl -vvv -H "Accept:application/json" -X POST -H "Content-Type:application/json" -d '{"empno":"1456","ename":"Priyanka","job":"FTP","mgr":"101","salary":"48234","Hiredate":"2019-02-12","comm":"9","deptno":"2"}' http://localhost:8080/TEST1/webapi/employees/employInsert
+>>>>>>> 1d6c180ee7f096bdd50b269ea5ef054f5dee5168
