@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Leezanewproject": {
+    "Routing": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Leezanewproject",
+            "outputPath": "dist/Routing",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -25,8 +25,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "es5BrowserSupport": true
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -44,32 +43,25 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true,
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "2mb",
-                  "maximumError": "5mb"
-                }
-              ]
+              "buildOptimizer": true
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Leezanewproject:build"
+            "browserTarget": "Routing:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Leezanewproject:build:production"
+              "browserTarget": "Routing:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Leezanewproject:build"
+            "browserTarget": "Routing:build"
           }
         },
         "test": {
@@ -103,20 +95,19 @@
         }
       }
     },
-    "Leezanewproject-e2e": {
+    "Routing-e2e": {
       "root": "e2e/",
       "projectType": "application",
-      "prefix": "",
       "architect": {
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Leezanewproject:serve"
+            "devServerTarget": "Routing:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Leezanewproject:serve:production"
+              "devServerTarget": "Routing:serve:production"
             }
           }
         },
@@ -132,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "Leezanewproject"
+  "defaultProject": "Routing"
 }
