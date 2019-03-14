@@ -1,7 +1,8 @@
-# Rest Service
+# Welcome to Hexaware FTP Training Course
 
- This top level directory contains all the relevant code for the rest service. The sub-directory 'leavemanager' contains a maven project for the application
- and the sub-directory 'integration_tests' contains the integration tests for the rest service (which is also another maven project)
+  Please take a look at the following files
 
-# manual testing for the rest api
-  * ```curl http://localhost:8080/FTP116/api/employees```
+  * CHEATSHEET.md gives all the commands that are useful while using command line tools such as git, maven etc.
+  * Week[n].md contains the structure of the course on a week-by-week basis
+
+  
